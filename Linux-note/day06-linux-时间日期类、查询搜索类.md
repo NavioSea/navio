@@ -57,6 +57,8 @@ locate搜索文件
 # cat /home/hello.txt  | grep 'hello'
 ```
 
+#### whereis mysql 查询mysql的指令
+
 
 
 
