@@ -8,7 +8,9 @@
 
 ![image-20220522143123005](C:\Users\lzh\AppData\Roaming\Typora\typora-user-images\image-20220522143123005.png)
 
-1.下载镜像
+1.下载repo
+
+wget https://download.docker.com/linux/centos/docker-ce.repo
 
 ```
 mirrors.tuna.tsinghua.edu.cn

@@ -95,4 +95,10 @@
   *# 查看 yum 已安装 nginx相关的包*
 
    yum list installed nginx*
+  
+* yum list installed
+
+* yum remove 
+
+
 
