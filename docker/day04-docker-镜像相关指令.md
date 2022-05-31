@@ -23,7 +23,7 @@
 # docker push DockerId/Docker镜像仓库:tagname
 ```
 
-6.提交一个新的变化
+6.基于容器提交一个新的镜像
 
 ```
 # docker commit [选项]

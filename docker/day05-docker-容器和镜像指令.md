@@ -56,3 +56,9 @@ COPY ..  #复制当前脚本
 `docker tag  bullent:1.0 DockerId/bullent:1.0` 
 
 `docker push  naviosea/bullent:1.0`
+
+#### 5.构建镜像
+
+`docker image -t 镜像:tagname build  目录`
+
+ 
