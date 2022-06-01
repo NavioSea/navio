@@ -20,7 +20,11 @@
 
 选项3: -x 显示后台进程运行的参数
 
+![image-20220601120810941](C:\Users\lzh\AppData\Roaming\Typora\typora-user-images\image-20220601120810941.png)
+
 ![image-20220517220948284](C:\Users\lzh\AppData\Roaming\Typora\typora-user-images\image-20220517220948284.png)
+
+`USER``PID` `%CPU` `%MEM`:内存占用百分比
 
 `VSZ`:虚拟内存
 
@@ -71,7 +75,7 @@ D-短期等等 Z-僵死进程 T-被跟踪或者被停止等等
  # kill 进程pid  //踢出非法登录用户
  案例二:终止远程服务sshd,在适当时候再次重启sshd服务
  # kill sshd对应的进程号
- # /bin/systenctl start sshd.service//重启ssh客户端连接进程
+ # /bin/systemctl start sshd.service//重启ssh客户端连接进程
  或者
  # service sshd start//重启ssh客户端连接进程
  案例三:终止多个gedit（killall命令）

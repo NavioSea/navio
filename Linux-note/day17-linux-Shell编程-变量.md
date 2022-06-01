@@ -50,7 +50,7 @@ Shell是一个命令行解释器,它为用户提供了一个向Linux内核发送
 ```
 - 基本介绍
 1.Linux系统中Shell中的变量分为系统变量和用户自定义变量，这两种变量.
-2.系统变量:￥HOME $PWD $SHELL $USER 等等
+2.系统变量:$HOME $PWD $SHELL $USER 等等
 3.显示当前shell中所有变量 set
 
 - shell变量的定义
