@@ -51,7 +51,7 @@ https://mirrors.aliyun.com/centos/8.1.1911/isos/x86_64
 
 * 网络连接三种方式
 
-![image-20220405144107376](C:\Users\lzh\AppData\Roaming\Typora\typora-user-images\image-20220405144107376.png)
+![image-20220405144107376](img\image-20220405144107376.png)
 
 ```
 1.桥接模式:
