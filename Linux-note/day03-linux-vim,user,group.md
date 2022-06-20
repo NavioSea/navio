@@ -118,3 +118,9 @@ VI 和VIM
   ```
 
   
+
+//启动 Sentinel 控制台需要 JDK 版本为 1.8 及以上版 本， //-Dserver.port=8080 ⽤于指定 Sentinel 控制台端⼝ 为 8080 //默认⽤户名和密码都是 sentinel java -Dserver.port=8080 - Dcsp.sentinel.dashboard.server=localhost:8080 - Dproject.name=sentinel-dashboard -jar sentineldashboard-1.8.0.jar
+
+
+
+![image-20220610002631782](C:\Users\lzh\AppData\Roaming\Typora\typora-user-images\image-20220610002631782.png)

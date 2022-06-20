@@ -22,7 +22,7 @@
 
 *4.在启动docker容器时,把它数据卷挂载到文件系统*
 
-`docker run -itd --name 容器名 -v 挂载目录:/data:rw 镜像名:tagname`
+`docker run -itd --name 容器名 -v 宿主机目录:容器目录:rw 镜像名:tagname`
 
 #### 2.共享Volume
 

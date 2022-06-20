@@ -113,3 +113,26 @@ yum install -y openssh-server
 #### 构建镜像
 
 docker build -t "镜像名:tagname" 镜像所在目录
+
+#### 制作Centos基础镜像
+
+1.安装sshd
+
+`yum install openssh-server`
+
+2.下载后将容器制作成镜像
+
+`docker commit 容器 镜像名:TAGNAME`
+
+#### 容器内服务以前台方式运行:(经典) ####
+
+sshd前台启动命令:/usr/sbin/sshd -D
+
+3.启动容器
+
+--privileged=true :特权启动
+
+```
+docker run -itd --name="centos7_uat" -v /newdisk/app/centos7:/opt/data -p 2222:22 --privileged=true sshd_centos:v1 /usr/sbin/init
+```
+
