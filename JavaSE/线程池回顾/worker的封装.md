@@ -2,10 +2,6 @@
 
 #### 1.Worker的有参构造
 
-```
-
-```
-
 ```java
 Runnable firstTask;
 Worker(Runnable firstTask) {
